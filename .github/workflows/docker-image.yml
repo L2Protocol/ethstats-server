@@ -40,6 +40,4 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: ${{ steps.meta.outputs.tags }}
-        labels: ${{ steps.meta.outputs.labels }}
-        build-args: |
-          GRUNT_TASK=poa --configPath="src/js/l2pConfig.js"        
+        labels: ${{ steps.meta.outputs.labels }}  
