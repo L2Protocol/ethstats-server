@@ -1,2 +1,2 @@
 var networkName = 'L2 Protocol';
-var faviconPath = '/favicon.ico';
+var faviconPath = '/l2p-favicon.svg';
